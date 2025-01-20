@@ -29,12 +29,12 @@ void loop(){
 	digitalWrite(BLED, LOW);
 	delay(1500);
 	digitalWrite(BLED, HIGH);
-  delay(300);
+	delay(300);
 	digitalWrite(BLED, LOW);
 	delay(150);
-  digitalWrite(BLED, HIGH);
+	digitalWrite(BLED, HIGH);
 	delay(300);
-  digitalWrite(BLED, LOW);
+  	digitalWrite(BLED, LOW);
 	delay(150);
 	digitalWrite(BLED, HIGH);
 	delay(300);
@@ -42,10 +42,10 @@ void loop(){
 	delay(1500);
 	digitalWrite(BLED, HIGH);
 	delay(70);
-  digitalWrite(BLED, LOW);
+  	digitalWrite(BLED, LOW);
 	delay(70);
-  igitalWrite(BLED, HIGH);
+  	digitalWrite(BLED, HIGH);
 	delay(70);
-  digitalWrite(BLED, LOW);
+  	digitalWrite(BLED, LOW);
 	delay(70);
 }
